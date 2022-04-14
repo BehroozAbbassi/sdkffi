@@ -139,6 +139,12 @@ Get-ChildItem -Path (Join-Path -Path (& "${env:ProgramFiles(x86)}\Microsoft Visu
 
 ## Dependencies
 
+
+You can install most of the dependencies using the [VCPKG](https://github.com/microsoft/vcpkg), but there is one that is not available on the VCPKG, the `libclang`.
+You must download the LLVM Windows installer and installed manually!
+
+- https://github.com/llvm/llvm-project/releases
+
 ```bat
 .\vcpkg.exe install cereal:x64-windows cereal:x86-windows
 .\vcpkg.exe install nlohmann-json:x64-windows nlohmann-json:x86-windows
