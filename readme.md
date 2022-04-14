@@ -42,7 +42,7 @@ typedef struct _UNICODE_STRING {
 
 First of all You have to tell tool the include path of a specific version of Windows SDK.
 
-To reduce the commandlines I just move clang's related commandline parameters to a file called `IncludePaths.json`, you need to add correct `Include` paths or any predefined `Macro` in this file.
+To reduce the commandlines I just move clang's related commandline parameters to a file called [IncludePaths.json](sdkffi/clang_configs.json), you need to add correct `Include` paths or any predefined `Macro` in this file.
 
 
 > Notice: you need the `"-m32",` if you are running the tool as a 64bit program.
