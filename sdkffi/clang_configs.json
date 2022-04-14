@@ -1,0 +1,22 @@
+{
+  "clang_configs.clang_args": {
+    "clang_args": [
+      "-X c",
+      "-Xclang",
+      "-fsyntax-only",
+      "-fms-compatibility",
+      "-fms-extensions",
+      "-std=c99",
+      "-fms-compatibility-version=19",
+      "-m32",
+      "--define-macro=SDKFFI_PARSER",
+      "-DNTSYSCALLAPI",
+      "--define-macro=NTSYSCALLAPI",
+      "-IC:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/shared",
+      "-IC:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
+      "-IC:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
+      "-IC:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
+      "-IF:\\dev_cc\\github\\repos\\\\sdkffi\\output\\\\phnt"
+    ]
+  }
+}
