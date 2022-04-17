@@ -16,7 +16,7 @@
       "-IC:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/ucrt",
       "-IC:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/um",
       "-IC:/Program Files (x86)/Windows Kits/10/Include/10.0.16299.0/winrt",
-      "-IF:\\dev_cc\\github\\repos\\\\sdkffi\\output\\\\phnt"
+      "-IC:\\Dev\\Github\\processhacker\\phnt\\include"
     ]
   }
 }
